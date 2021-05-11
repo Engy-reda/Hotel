@@ -1,0 +1,201 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    background:rgb(204, 192, 121);
+}
+/* style of navbar */
+#nav{
+    /* background: linear-gradient(270deg, rgb(248, 248, 248), rgba(167, 151, 95, 0.493)300%); */
+    min-height: 150px;
+    position: relative;
+    padding: 2%;
+    background-color: rgb(175, 130, 31); /* For browsers that do not support gradients */
+    background-image: linear-gradient(rgb(252, 252, 252), rgb(209, 201, 170));
+}
+#logo-n{
+    float: left;
+    word-spacing: 10px;
+}
+#logo-img{
+    margin: 0% 9%;
+    max-width: 12%;
+    border-radius: 50%;
+}
+.name-hotel{
+    color: rgb(128, 114, 90);
+}
+.logo-text{
+    color: rgb(204, 180, 131);
+}
+.welcome-cap{
+    font-size: 10px;
+    vertical-align: middle;
+    word-spacing: 0px;
+}
+#item-n{
+    position: absolute;
+    right: 50px;
+    bottom: 30px;
+}
+#item-n ul{
+    list-style: none;
+    word-spacing: 5px;
+}
+.dropend{
+    display: none;
+}
+.nav-Link{
+    color: rgb(204, 180, 131);
+    text-decoration: unset;
+}
+.divid{
+    padding: 0px 0px 0px 0px;
+}
+/* end style of navbar */
+
+
+/* style cont */
+#mid{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    background: #b4b27a;
+    width: 100%;
+    height: 525px;
+}
+#nav-r{
+    background: linear-gradient(270deg, rgb(236, 230, 190), rgba(235, 234, 229, 0.493)300%);
+    box-shadow: rgb(61, 56, 56) 2px 0px 10px;
+    height: 200px;
+    background-color: rgb(175, 130, 31);
+    background-image: linear-gradient(to right , rgb(180, 166, 116),rgb(252, 252, 252));
+
+    /* background-image: linear-gradient(rgb(252, 252, 252), rgb(167, 151, 95)); */
+
+    padding: 130px 40px 60px 40px;
+    margin-bottom: 10px;
+    width: 49%;
+    height: 500px;
+    /* background: rgb(228, 226, 163); */
+
+}
+.ul-nav-r{
+    color: rgb(128, 114, 90);
+    font-size: 25px;
+
+}
+.ul-nav-r li a{
+    color: rgb(105, 85, 85);
+    text-decoration: unset;
+    font-size: 20px;
+}
+#view{
+    max-width: 100%;
+    /* margin: 0px 10px 0px 30px; */
+    margin: 10px 0px 10px 2px;
+    height: 500px;
+    background-color: #d6d6c8;
+
+}
+#room-img{
+    max-width: 100%;
+    min-height: 500px;
+    border: 5px #fff solid;
+    margin-right: 10px;
+}
+#other{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    background-color: #c0bd8c;
+    padding-left:15px ;
+    margin-bottom: 10px;
+
+    
+}
+#othe-room{
+    width: 69.9%;
+    border: 3px white solid;
+    margin: 2px 0px 10px 0px;
+    height: 71.5px;
+}
+#more{
+    width: 890px;
+    margin-top: 3%;
+    background-color: rgb(175, 130, 31);
+    background-image: linear-gradient(to left , rgb(207, 193, 143),rgb(252, 252, 252));
+    height: 500px;
+    margin-bottom: 10px;
+    padding-top: 50px;
+    padding-left: 20px;
+    box-shadow: rgb(61, 56, 56) 2px 0px 10px;
+
+}
+.more h4 a{
+    color: #000;
+    text-decoration: unset;
+}
+#gallery h4 a{
+    color: #000;
+}
+#gal-img{
+    max-width: 32%;
+    border: 2px white solid;
+    height: 70px;
+
+}
+/* end style cont */
+
+/* style bottom */
+#bot{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    height: 200px;
+    border-top:5px rgb(134, 98, 31) solid;
+    border-bottom:5px rgb(134, 98, 31) solid;
+}
+.cont-bot{
+    width: 100%;
+}
+.info{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+#info-img{
+    width: 80px;
+    height: 100px;
+    border: 5px rgb(134, 98, 31) solid;
+}
+.divid-bot{
+    background-color: red;
+    width: 5px;
+    margin: 0% 2%;
+}
+footer{
+    height: 80px;
+    /* margin-top: 50px; */
+    text-align: center;
+    padding-top: 30px;
+    background: linear-gradient(270deg, rgb(236, 230, 190), rgba(235, 234, 229, 0.493)300%);
+
+
+}
+footer h4{
+    color: rgb(134, 98, 31);
+}
+footer h4 a{
+    color: rgb(221, 158, 41);
+}
+.foot{
+    background: linear-gradient(270deg, rgb(236, 230, 190), rgba(235, 234, 229, 0.493)300%);
+
+}
+
+/* end style bottom */
